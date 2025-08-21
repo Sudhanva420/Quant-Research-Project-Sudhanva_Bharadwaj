@@ -9,7 +9,7 @@ The baseline model uses the **z-score** of the spread between **BankNifty** and 
 - **Z-score** = (Spread - Rolling Mean) / Rolling Std Dev  
 
 
-### **2. Machine Learning Approach** 🤖  
+### **2. Machine Learning Approach** 
 A **feature-rich ML model** was tested to predict spread direction:  
 - Features: Time-based, momentum-based, z-scores of different timeframes 
 - Model: LightGBM  
